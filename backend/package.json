@@ -1,0 +1,30 @@
+{
+  "name": "@vmngr/vmngr-backend",
+  "version": "0.0.1",
+  "description": "Virtual machine manager",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmngr/vmngr.git"
+  },
+  "author": "Leon Rinkel <leon@rinkel.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmngr/vmngr/issues"
+  },
+  "homepage": "https://github.com/vmngr/vmngr#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.6",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@vmngr/libvirt": "0.0.2",
+    "apollo-server": "^2.9.7",
+    "graphql": "^14.5.8"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "@vmngr/vmngr-frontend",
+  "version": "0.0.1",
+  "description": "Virtual machine manager",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmngr/vmngr.git"
+  },
+  "author": "Leon Rinkel <leon@rinkel.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmngr/vmngr/issues"
+  },
+  "homepage": "https://github.com/vmngr/vmngr#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-http": "^1.5.16",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.11.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.11.0",
+    "react-scripts": "^3.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
