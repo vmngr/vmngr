@@ -18,6 +18,8 @@ $ cd frontend
 $ npm start
 ```
 
+![Screenshot][screenshot]
+
 ---
 
 MIT License
@@ -43,3 +45,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [cover]: cover.png "Cover image"
+[screenshot]: screenshot.png "Screenshot"
