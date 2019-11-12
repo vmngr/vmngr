@@ -11,7 +11,23 @@ import "typeface-roboto";
 
 import App from "./app";
 
-const cache = new InMemoryCache();
+const cache = new InMemoryCache({
+    dataIdFromObject(obj: any) {
+
+        if (
+            obj.__typename &&
+            obj.__typename === "Domain" &&
+            obj.uuid
+        ) return obj.uuid;
+
+        if (
+            obj.__typename &&
+            obj.__typename === "Hypervisor" &&
+            obj.hostname
+        ) return obj.hostname;
+
+    },
+});
 const link = new HttpLink({ uri: "http://localhost:4000/" });
 const client = new ApolloClient({ cache, link });
 

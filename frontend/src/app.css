@@ -1,4 +1,8 @@
-#domainList {
+body { background: #410ff8; }
+
+.container {
     max-width: 1024px;
     margin: auto;
 }
+
+#cover { height: 64px; }
