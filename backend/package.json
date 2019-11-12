@@ -20,11 +20,13 @@
   "homepage": "https://github.com/vmngr/vmngr#readme",
   "devDependencies": {
     "@types/node": "^12.12.6",
+    "@types/yargs": "^13.0.3",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@vmngr/libvirt": "0.0.2",
+    "@vmngr/libvirt": "0.0.3",
     "apollo-server": "^2.9.7",
-    "graphql": "^14.5.8"
+    "graphql": "^14.5.8",
+    "yargs": "^14.2.0"
   }
 }

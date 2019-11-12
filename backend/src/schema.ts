@@ -28,8 +28,13 @@ export const typeDefs = gql`
         info: DomainInfo!
     }
 
+    type Hypervisor {
+        hostname: String
+        domains: [Domain]!
+    }
+
     type Query {
-        allDomains: [Domain]!
+        hypervisors: [Hypervisor]!
     }
 
 `;

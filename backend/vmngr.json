@@ -1,0 +1,5 @@
+{
+    "hypervisors": [
+        "qemu:///system"
+    ]
+}
